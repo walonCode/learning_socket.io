@@ -26,7 +26,8 @@ This repository contains a basic project for learning how to use `socket.io` wit
 
 2. Install dependencies for both client and server:
    ```bash
-   # In the root directory
+   # Navigate to the server folder and install its dependencies
+   cd server
    npm install
    
    # Navigate to the client folder and install its dependencies
@@ -36,8 +37,9 @@ This repository contains a basic project for learning how to use `socket.io` wit
 
 3. Run the server:
    ```bash
-   # In the root directory
-   npm start
+   # Navigate the server directory
+   cd server
+   npm run dev
    ```
 
 4. Run the client:
@@ -59,4 +61,3 @@ This repository contains a basic project for learning how to use `socket.io` wit
 
 ---
 
-Feel free to customize this description to fit your specific repository and learning goals!
